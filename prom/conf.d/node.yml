@@ -1,0 +1,26 @@
+- targets:
+  - "dk01.rich.net:9100"
+  - "elk.rich.net:9100"
+  - "monster.rich.net:9100"
+  - "jk.rich.net:9100"
+  - "nas01.rich.net:9100"
+
+  labels:
+    team: Home
+
+- targets:
+
+  - "k8s-m.rich.net:9100"
+  - "k8s-n01.rich.net:9100"
+  - "k8s-n02.rich.net:9100"
+
+  labels:
+    team: K8S
+
+- targets:
+
+  - "dotnet.rich.net:9100"
+  - "jdski.rich.net:9100"
+
+  labels:
+    team: JDSki

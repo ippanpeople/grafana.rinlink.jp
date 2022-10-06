@@ -1,0 +1,7 @@
+- targets: 
+  - "https://tw.richnet.tw"
+  - "https://www.google.com"
+  - "https://grafana.richnet.tw"
+
+  labels:
+    team: Home

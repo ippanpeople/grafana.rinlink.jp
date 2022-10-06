@@ -1,0 +1,5 @@
+- targets:
+  - "dc.rich.net:9182"
+  
+  labels:
+    team: Home

@@ -1,0 +1,5 @@
+- targets:
+  - "dk01.rich.net:9080"
+
+  labels:
+    team: Docker
