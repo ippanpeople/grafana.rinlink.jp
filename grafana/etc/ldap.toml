@@ -1,28 +1,27 @@
 [[servers]]
-host = "rich.net"
+host = "rinrin.net"
 port = 3268
 use_ssl = false
 start_tls = false
 ssl_skip_verify = false
 
 
-bind_dn = "grafana@rich.net"
-bind_password = 'Ccna@123'
+bind_dn = "grafana@rinrin.net"
+bind_password = "rinriN@123"
 search_filter = "(sAMAccountName=%s)"
-search_base_dns = ["OU=Admin,DC=RICH,DC=NET"]
-group_search_base_dns = ["OU=Admin,DC=RICH,DC=NET"]
-
+search_base_dns = ["OU=AdminUser,DC=rinrin,DC=net"]
+group_search_base_dns = ["OU=AdminUser,DC=rinrin,DC=net"]
 
 [servers.attributes]
 name = "givenName"
 surname = "sn"
-username = "cn"
+username = "sAMAccountName"
 member_of = "memberOf"
-email =  "email"
+email =  "mail"
 
 
 [[servers.group_mappings]]
-group_dn = "CN=admin,OU=Admin-Group,DC=RICH,DC=NET"
+group_dn = "CN=AdminGroup,OU=Group,DC=rinrin,DC=net"
 org_role = "Admin"
 
 
