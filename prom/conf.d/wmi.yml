@@ -1,0 +1,6 @@
+# 搓目標（想要監控的windows 機器）-> dashboard:Lab Overview
+- targets:
+  - "dc01.rinrin.net:9182"
+  
+  labels:
+    team: Lab
