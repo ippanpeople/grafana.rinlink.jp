@@ -15,7 +15,7 @@ global:
 # Node_Exporter with Service Discovery           #
 ##################################################
 scrape_configs:
-  - job_name: 'node_exporter'
+  - job_name: 'node_exporter' # linux os
     file_sd_configs:
       - files:
         - conf.d/node.yml
@@ -29,7 +29,7 @@ scrape_configs:
 ##################################################
 # WMI_Exporter with Service Discovery           #
 ##################################################
-  - job_name: 'wmi_exporter'
+  - job_name: 'wmi_exporter'  # windos os
     file_sd_configs:
       - files:
         - conf.d/wmi.yml
@@ -43,7 +43,7 @@ scrape_configs:
 ##################################################
 # Blackbox_Exporter with Service Discovery       #
 ##################################################
-  - job_name: 'blackbox_exporter'
+  - job_name: 'blackbox_exporter' # http service status
     metrics_path: /probe
     params:
       module: [http_2xx]
@@ -59,11 +59,11 @@ scrape_configs:
       action: replace
       target_label: "target"
     - target_label: __address__
-      replacement: 10.10.1.12:9115
+      replacement: 10.0.1.201:9115
 ##################################################
 # cAdvisor with Service Discovery                #
 ##################################################
-  - job_name: 'cAdvisor'
+  - job_name: 'cAdvisor'  # docker container 
     file_sd_configs:
       - files:
         - conf.d/cadvisor.yml
