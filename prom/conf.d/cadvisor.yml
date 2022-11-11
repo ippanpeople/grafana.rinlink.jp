@@ -1,5 +1,18 @@
+# 搓目標（想要監控的單台vm上的docker container）-> dashboard:Docker Overview
 - targets:
-  - "dk01.rich.net:9080"
+  - "lab01.rinrin.net:9080"
 
   labels:
-    team: Docker
+    team: Lab
+
+- targets:
+  - "shs.rinrin.net:9080"
+
+  labels:
+    team: Smart Home System
+
+- targets:
+  - "fdev.rinrin.net:9080"
+  
+  labels:
+    team: SliverBakery

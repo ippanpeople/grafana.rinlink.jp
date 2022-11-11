@@ -1,7 +1,9 @@
+# 搓目標（想要監控的網站）-> dashboard:Blackbox Moniter
 - targets: 
-  - "https://tw.richnet.tw"
+  - "https://ecc.ac.jp"
   - "https://www.google.com"
-  - "https://grafana.richnet.tw"
+  - "https://www.rinlink.jp"
+  - "https://grafana.rinlink.jp"
 
   labels:
-    team: Home
+    team: Lab

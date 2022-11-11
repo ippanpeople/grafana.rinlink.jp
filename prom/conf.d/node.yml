@@ -1,26 +1,34 @@
+# 搓目標（想要監控的linux）-> dashboard:Lab Overview
 - targets:
-  - "dk01.rich.net:9100"
-  - "elk.rich.net:9100"
-  - "monster.rich.net:9100"
-  - "jk.rich.net:9100"
-  - "nas01.rich.net:9100"
+  - "lab01.rinrin.net:9100"
 
   labels:
-    team: Home
+    team: Lab
 
 - targets:
-
-  - "k8s-m.rich.net:9100"
-  - "k8s-n01.rich.net:9100"
-  - "k8s-n02.rich.net:9100"
+  - "shs.rinrin.net:9100"
 
   labels:
-    team: K8S
+    team: Smart Home System
 
 - targets:
-
-  - "dotnet.rich.net:9100"
-  - "jdski.rich.net:9100"
+  - "fdev.rinrin.net:9100"
 
   labels:
-    team: JDSki
+    team: SliverBakery
+# - targets:
+
+#   - "k8s-m.rinrin.net:9100"
+#   - "k8s-n01.rinrin.net:9100"
+#   - "k8s-n02.rinrin.net:9100"
+
+#   labels:
+#     team: K8S
+
+# - targets:
+
+#   - "dotnet.rinrin.net:9100"
+#   - "jdski.rinrin.net:9100"
+
+#   labels:
+#     team: JDSki
