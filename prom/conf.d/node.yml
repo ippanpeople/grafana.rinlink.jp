@@ -16,6 +16,12 @@
 
   labels:
     team: SliverBakery
+
+- targets:
+  - "pi.rinrin.net:9100"
+  
+  labels:
+    team: Raspi
 # - targets:
 
 #   - "k8s-m.rinrin.net:9100"
