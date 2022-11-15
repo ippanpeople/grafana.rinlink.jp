@@ -16,3 +16,9 @@
   
   labels:
     team: SliverBakery
+
+- targets:
+  - "bdev.rinrin.net:9080"
+
+  labels:
+    team: SliverBakery
