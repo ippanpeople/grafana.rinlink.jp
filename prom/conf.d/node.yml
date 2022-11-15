@@ -18,6 +18,12 @@
     team: SliverBakery
 
 - targets:
+  - "bdev.rinrin.net:9100"
+
+  labels:
+    team: SliverBakery
+
+- targets:
   - "pi.rinrin.net:9100"
   
   labels:
